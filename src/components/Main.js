@@ -2,9 +2,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 import DevIcon1 from '../images/react-icon.svg'
 import DevIcon2 from '../images/javascript-icon.svg'
+import DevIcon3 from '../images/jquery-icon.svg'
+import DevIcon4 from '../images/nodejs-icon.svg'
+import DevIcon5 from '../images/npm-icon.png'
 
 
 class Main extends React.Component {
@@ -112,6 +114,39 @@ class Main extends React.Component {
               <img
                 src={DevIcon2}
                 alt="javascript-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">jquery</p>
+              <img
+                src={DevIcon3}
+                alt="jquery-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">nodejs</p>
+              <img
+                src={DevIcon4}
+                alt="nodejs-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">npm</p>
+              <img
+                src={DevIcon5}
+                alt="npm-icon"
                 style={{
                   width: 90,
                   height: 90,
