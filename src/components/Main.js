@@ -3,6 +3,9 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import DevIcon1 from '../images/react-icon.svg'
+import DevIcon2 from '../images/javascript-icon.svg'
+
 
 class Main extends React.Component {
   render() {
@@ -92,9 +95,31 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Tech + Skills</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <div className="skills-set">
+            <div className="skills-icon">
+              <p id="skills-title">react</p>
+              <img
+                src={DevIcon1}
+                alt="react-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">javascript</p>
+              <img
+                src={DevIcon2}
+                alt="javascript-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+          </div>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
             eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
