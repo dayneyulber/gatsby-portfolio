@@ -106,7 +106,7 @@ class Main extends React.Component {
           <h2 className="major">Tech + Skills</h2>
           <div className="skills-set">
           <div className="skills-icon">
-              <p id="skills-title">javascript</p>
+              <p id="skills-title">JavaScript</p>
               <img
                 src={DevIcon2}
                 alt="javascript-icon"
@@ -117,7 +117,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">react</p>
+              <p id="skills-title">React</p>
               <img
                 src={DevIcon1}
                 alt="react-icon"
@@ -128,7 +128,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">nodejs</p>
+              <p id="skills-title">Node.js</p>
               <img
                 src={DevIcon4}
                 alt="nodejs-icon"
@@ -139,7 +139,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">jquery</p>
+              <p id="skills-title">jQuery</p>
               <img
                 src={DevIcon3}
                 alt="jquery-icon"
@@ -150,7 +150,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">express</p>
+              <p id="skills-title">Express</p>
               <img
                 src={DevIcon6}
                 alt="express-icon"
@@ -161,7 +161,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">mysql</p>
+              <p id="skills-title">MySQL</p>
               <img
                 src={DevIcon7}
                 alt="mysql-icon"
@@ -172,9 +172,9 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">mongodb</p>
+              <p id="skills-title">MongoDB</p>
               <img
-                src={DevIcon7}
+                src={DevIcon8}
                 alt="mongodb-icon"
                 style={{
                   width: 90,
@@ -183,9 +183,9 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">npm</p>
+              <p id="skills-title">NPM</p>
               <img
-                src={DevIcon8}
+                src={DevIcon9}
                 alt="npm-icon"
                 style={{
                   width: 90,
@@ -194,9 +194,9 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">sass</p>
+              <p id="skills-title">SASS</p>
               <img
-                src={DevIcon9}
+                src={DevIcon10}
                 alt="sass-icon"
                 style={{
                   width: 90,
@@ -205,7 +205,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">css3</p>
+              <p id="skills-title">CSS3</p>
               <img
                 src={DevIcon5}
                 alt="css3-icon"
@@ -216,7 +216,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">html5</p>
+              <p id="skills-title">HTML5</p>
               <img
                 src={DevIcon11}
                 alt="html5-icon"
@@ -227,7 +227,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">git</p>
+              <p id="skills-title">Git + Github</p>
               <img
                 src={DevIcon12}
                 alt="git-icon"
