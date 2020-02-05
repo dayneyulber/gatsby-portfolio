@@ -7,6 +7,13 @@ import DevIcon2 from '../images/javascript-icon.svg'
 import DevIcon3 from '../images/jquery-icon.svg'
 import DevIcon4 from '../images/nodejs-icon.svg'
 import DevIcon5 from '../images/css3-icon.svg'
+import DevIcon6 from '../images/express-icon.svg'
+import DevIcon7 from '../images/mysql-icon.svg'
+import DevIcon8 from '../images/mongodb-icon.svg'
+import DevIcon9 from '../images/npm-icon.svg'
+import DevIcon10 from '../images/sass-icon.svg'
+import DevIcon11 from '../images/html5-icon.svg'
+import DevIcon12 from '../images/git-icon.svg'
 
 
 class Main extends React.Component {
@@ -98,18 +105,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Tech + Skills</h2>
           <div className="skills-set">
-            <div className="skills-icon">
-              <p id="skills-title">react</p>
-              <img
-                src={DevIcon1}
-                alt="react-icon"
-                style={{
-                  width: 90,
-                  height: 90,
-                }}
-              />
-            </div>
-            <div className="skills-icon">
+          <div className="skills-icon">
               <p id="skills-title">javascript</p>
               <img
                 src={DevIcon2}
@@ -121,10 +117,10 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">jquery</p>
+              <p id="skills-title">react</p>
               <img
-                src={DevIcon3}
-                alt="jquery-icon"
+                src={DevIcon1}
+                alt="react-icon"
                 style={{
                   width: 90,
                   height: 90,
@@ -143,10 +139,98 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
+              <p id="skills-title">jquery</p>
+              <img
+                src={DevIcon3}
+                alt="jquery-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">express</p>
+              <img
+                src={DevIcon6}
+                alt="express-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">mysql</p>
+              <img
+                src={DevIcon7}
+                alt="mysql-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">mongodb</p>
+              <img
+                src={DevIcon7}
+                alt="mongodb-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">npm</p>
+              <img
+                src={DevIcon8}
+                alt="npm-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">sass</p>
+              <img
+                src={DevIcon9}
+                alt="sass-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
               <p id="skills-title">css3</p>
               <img
                 src={DevIcon5}
                 alt="css3-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">html5</p>
+              <img
+                src={DevIcon11}
+                alt="html5-icon"
+                style={{
+                  width: 90,
+                  height: 90,
+                }}
+              />
+            </div>
+            <div className="skills-icon">
+              <p id="skills-title">git</p>
+              <img
+                src={DevIcon12}
+                alt="git-icon"
                 style={{
                   width: 90,
                   height: 90,
