@@ -6,7 +6,7 @@ import DevIcon1 from '../images/react-icon.svg'
 import DevIcon2 from '../images/javascript-icon.svg'
 import DevIcon3 from '../images/jquery-icon.svg'
 import DevIcon4 from '../images/nodejs-icon.svg'
-import DevIcon5 from '../images/npm-icon.png'
+import DevIcon5 from '../images/css3-icon.svg'
 
 
 class Main extends React.Component {
@@ -143,10 +143,10 @@ class Main extends React.Component {
               />
             </div>
             <div className="skills-icon">
-              <p id="skills-title">npm</p>
+              <p id="skills-title">css3</p>
               <img
                 src={DevIcon5}
-                alt="npm-icon"
+                alt="css3-icon"
                 style={{
                   width: 90,
                   height: 90,
