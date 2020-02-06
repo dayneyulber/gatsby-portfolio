@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import './Main.css'
-import pic01 from '../images/about-pic.jpg'
+import pic01 from '../images/about-me-pic.png'
 import pic02 from '../images/pic02.jpg'
 import DevIcon1 from '../images/react-icon.svg'
 import DevIcon2 from '../images/javascript-icon.svg'
