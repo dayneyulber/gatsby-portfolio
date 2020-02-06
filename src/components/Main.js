@@ -50,9 +50,12 @@ class Main extends React.Component {
             and business. Originally from Houston, Texas, I moved to
             Austin to pursue an undergraduate degree at the University of Texas.
             Upon completing my Bachelor's, I began teaching myself the language
-            of programming and went on to complete the university's coding
-            bootcamp thereafter. What began as a simple interest for polishing my development skills, ultimately jumpstarted my newfound passion for
-            building and designing web applications.
+            of programming and went on to finish the university's coding
+            bootcamp thereafter. What started as a keen interest for polishing my development skills, ultimately jumpstarted my newfound passion for
+            building and designing aesthetically pleasing web applications.
+          </p>
+          <p>
+          When I'm not writing code, you can expect to find me in my room producing music or spending time with my family and our sweet Maltipoo puppy, Chloe. I am an avid music connosieur, a fitness lover, and a tech enthusiast. 
           </p>
           {close}
         </article>
