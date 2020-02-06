@@ -16,7 +16,7 @@ import DevIcon10 from '../images/sass-icon.svg'
 import DevIcon11 from '../images/html5-icon.svg'
 import DevIcon12 from '../images/git-icon.svg'
 import SoundStalker from '../images/SoundStalker.png'
-// import LSP from '../images/LoneStarProspects.png'
+import DevNet from '../images/DevNet.png'
 import Odunsi from '../images/OdunsiPortfolio.png'
 
 
@@ -51,14 +51,18 @@ class Main extends React.Component {
           </span>
           <p>
             Hello, I'm a full stack web developer with a background in biology
-            and business. Originally from Houston, Texas, I moved to
-            Austin to pursue an undergraduate degree at the University of Texas.
-            Upon completing my Bachelor's, I began learning to program and went on to finish the university's coding
-            bootcamp thereafter. What started as a keen interest to polish my development skills, ultimately jumpstarted my newfound passion for
-            building and designing aesthetically pleasing web applications.
+            and business. Originally from Houston, Texas, I moved to Austin to
+            pursue an undergraduate degree at the University of Texas. Upon
+            completing my Bachelor's, I began learning to program and went on to
+            finish the university's coding bootcamp thereafter. What started as
+            a keen interest to polish my development skills, ultimately
+            jumpstarted my newfound passion for building and designing web applications.
           </p>
           <p>
-          When I'm not writing code, you can expect to find me in my room producing music or spending time with my family and our sweet Maltipoo pup, Chloe. I am an avid music connosieur, a fitness lover, and a tech enthusiast. 
+            When I'm not writing code, you can expect to find me in my room
+            producing music or spending time with my family and our sweet
+            Maltipoo pup, Chloe. I am an avid music connosieur, a fitness lover,
+            and a tech enthusiast.
           </p>
           {close}
         </article>
@@ -79,7 +83,7 @@ class Main extends React.Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/ashgia/pet-adoption"
+              href="https://github.com/dayneyulber/Sound-Stalker"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
@@ -91,15 +95,15 @@ class Main extends React.Component {
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
             sollicitudin mauris nec lorem luctus ultrices.
           </p>
-          {/* <span className="image main">
-            <img src={LSP} alt="" />
+          <span className="image main">
+            <img src={DevNet} alt="" />
           </span>
           <div className="title-github">
-            <h3>Lone Star Prospects</h3>
+            <h3>DevNet</h3>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/ashgia/pet-adoption"
+              href="https://github.com/dayneyulber"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
@@ -110,7 +114,7 @@ class Main extends React.Component {
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
             sollicitudin mauris nec lorem luctus ultrices.
-          </p> */}
+          </p>
           <span className="image main">
             <img src={Odunsi} alt="" />
           </span>
@@ -119,7 +123,7 @@ class Main extends React.Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/ashgia/pet-adoption"
+              href="https://github.com/dayneyulber/odunsi-portfolio"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
@@ -311,13 +315,16 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://codebushi.com" className="icon fa-linkedin">
+              <a
+                href="https://www.linkedin.com/in/dayneberonque/"
+                className="icon fa-linkedin"
+              >
                 <span className="label">linkedin</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/dayneyulber"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

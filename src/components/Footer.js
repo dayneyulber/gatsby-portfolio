@@ -5,13 +5,13 @@ const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <ul className="icons">
       <li>
-        <a href="https://codebushi.com" className="icon fa-linkedin">
+        <a href="https://www.linkedin.com/in/dayneberonque/" className="icon fa-linkedin">
           <span className="label">linkedin</span>
         </a>
       </li>
       <li>
         <a
-          href="https://github.com/codebushi/gatsby-starter-dimension"
+          href="https://github.com/dayneyulber"
           className="icon fa-github"
         >
           <span className="label">GitHub</span>
