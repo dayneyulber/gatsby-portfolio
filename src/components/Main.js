@@ -46,13 +46,13 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Hello, I'm a Houston based UI Designer / Frontend Developer. I love
-            building things! Originally from Houston, Texas, I moved to Austin
-            to pursue an undergraduate degree at the University of Texas. After
-            receiving my Bachelor's degree in Biology, I completed the
-            university's coding bootcamp--this move fueled by my growing passion
-            for the tech industry, as well as my own personal agenda in
-            developing my skills as a frontend web developer.
+            Hello, I'm a full stack web developer with a background in biology
+            and business. Originally from Houston, Texas, I moved to
+            Austin to pursue an undergraduate degree at the University of Texas.
+            Upon completing my Bachelor's, I began teaching myself the language
+            of programming and went on to complete the university's coding
+            bootcamp thereafter. What began as a simple interest for polishing my development skills, ultimately jumpstarted my newfound passion for
+            building and designing web applications.
           </p>
           {close}
         </article>
