@@ -15,6 +15,10 @@ import DevIcon9 from '../images/npm-icon.svg'
 import DevIcon10 from '../images/sass-icon.svg'
 import DevIcon11 from '../images/html5-icon.svg'
 import DevIcon12 from '../images/git-icon.svg'
+import SoundStalker from '../images/SoundStalker.png'
+// import LSP from '../images/LoneStarProspects.png'
+import Odunsi from '../images/OdunsiPortfolio.png'
+
 
 
 class Main extends React.Component {
@@ -69,22 +73,64 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={SoundStalker} alt="" />
           </span>
+          <div className="title-github">
+            <h3>Sound Stalker</h3>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/ashgia/pet-adoption"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </div>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
             sollicitudin mauris nec lorem luctus ultrices.
           </p>
+          {/* <span className="image main">
+            <img src={LSP} alt="" />
+          </span>
+          <div className="title-github">
+            <h3>Lone Star Prospects</h3>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/ashgia/pet-adoption"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </div>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
+            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
+            urna nisi, fringila lorem et vehicula lacinia quam. Integer
+            sollicitudin mauris nec lorem luctus ultrices.
+          </p> */}
+          <span className="image main">
+            <img src={Odunsi} alt="" />
+          </span>
+          <div className="title-github">
+            <h3>Odunsi's Portfolio</h3>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/ashgia/pet-adoption"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </div>
+          <p>
+            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
+            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
+            urna nisi, fringila lorem et vehicula lacinia quam. Integer
+            sollicitudin mauris nec lorem luctus ultrices.
           </p>
           {close}
         </article>
