@@ -90,10 +90,7 @@ class Main extends React.Component {
             </a>
           </div>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            As someone who constantly seeks out and shares new music, it is often an issue keeping up with my favorite artists. Developed by incorporating the TasteDive, YouTube, and TicketMaster APIs, Sound Stalker addresses such difficulties through one simple search. Just enter your artist in question and information such as related artists and upcoming tour dates are generated and displayed. 
           </p>
           <span className="image main">
             <img src={DevNet} alt="" />
@@ -110,10 +107,7 @@ class Main extends React.Component {
             </a>
           </div>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            DevNet is a social networking platform developed specifically for employers/employees and future professionals in the tech industry. Curated with a user registration and login system, DevNet serves as a commonplace for individuals to connect with fellow developers and recruiters alike. 
           </p>
           <span className="image main">
             <img src={Odunsi} alt="" />
@@ -130,10 +124,7 @@ class Main extends React.Component {
             </a>
           </div>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is a portfolio made for a talented photographer using React's GatsbyJS framework. 
           </p>
           {close}
         </article>
