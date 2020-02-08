@@ -61,7 +61,7 @@ class Main extends React.Component {
           <p>
             When I'm not writing code, you can expect to find me in my room
             producing music or spending time with my family and our sweet
-            Maltipoo pup, Chloe. I am an avid music connosieur, a fitness lover,
+            Maltipoo, Chloe. I am an avid music connosieur, a fitness lover,
             and a tech enthusiast.
           </p>
           {close}
