@@ -50,18 +50,16 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Hello, I'm a full stack web developer with a background in biology
+            I'm a full stack web developer with a background in biology
             and business. Originally from Houston, Texas, I moved to Austin to
             pursue an undergraduate degree at the University of Texas. Upon
             completing my Bachelor's, I began learning to program and went on to
-            finish the university's coding bootcamp thereafter. What started as
-            a keen interest to polish my development skills, ultimately
-            jumpstarted my newfound passion for building and designing web applications.
+            finish the university's coding bootcamp thereafter. This ultimately
+            jumpstarted my newfound passion for creating and designing memorable user experiences, bringing aesthetic pleasure and functionality together.
           </p>
           <p>
             When I'm not writing code, you can expect to find me in my room
-            producing music or spending time with my family and our sweet
-            Maltipoo, Chloe. I am an avid music connosieur, a fitness lover,
+            producing music or spending time with my family and enjoying the outdoors. I am an avid music connosieur, a fitness lover,
             and a tech enthusiast.
           </p>
           {close}
