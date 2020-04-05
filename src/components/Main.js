@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import './Main.css'
 import pic01 from '../images/about-me-pic.png'
-import pic02 from '../images/pic02.jpg'
+// import pic02 from '../images/pic02.jpg'
 import DevIcon1 from '../images/react-icon.svg'
 import DevIcon2 from '../images/javascript-icon.svg'
 import DevIcon3 from '../images/jquery-icon.svg'
@@ -18,6 +18,7 @@ import DevIcon12 from '../images/git-icon.svg'
 import SoundStalker from '../images/SoundStalker.png'
 import DevNet from '../images/DevNet.png'
 import Odunsi from '../images/OdunsiPortfolio.png'
+import CryptoDash from '../images/CryptoDash.png'
 
 
 
@@ -50,17 +51,21 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            I'm a full stack web developer with a background in biology
-            and business. Originally from Houston, Texas, I moved to Austin to
-            pursue an undergraduate degree at the University of Texas. Upon
-            completing my Bachelor's, I began learning to program and went on to
-            finish the university's coding bootcamp thereafter. This ultimately
-            jumpstarted my newfound passion for creating and designing memorable user experiences, bringing aesthetic pleasure and functionality together.
+            Hi, I'm a full stack web developer with a background in biology and
+            business. Originally from Houston, Texas, I moved to Austin to
+            pursue my undergraduate degree at the University of Texas. Before
+            finishing my Bachelor's, I quickly drew interest in programming and
+            found myself completing the university's coding program thereafter.
+            This ultimately jumpstarted my newfound passion for building and
+            designing web applications with focus on memorable user experiences,
+            combining and meshing both aesthetic pleasure and functionality.
           </p>
           <p>
-            When I'm not writing code, you can expect to find me in my room
-            producing music or spending time with my family and enjoying the outdoors. I am an avid music connosieur, a fitness lover,
-            and a tech enthusiast.
+            When I'm not writing code, you can find me in my room working on
+            music, or just spending time with my family and enjoying the
+            outdoors. I'm always interested in talking with prospective
+            employers, freelance clients, fellow engineers and anyone else
+            interesting -- let's grab a coffee and chat!
           </p>
           {close}
         </article>
@@ -74,21 +79,24 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={SoundStalker} alt="" />
+            <img src={CryptoDash} alt="" />
           </span>
           <div className="title-github">
-            <h3>Sound Stalker</h3>
+            <h3>CryptoDash</h3>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/dayneyulber/Sound-Stalker"
+              href="https://github.com/dayneyulber/cryptodash"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
             </a>
           </div>
           <p>
-            As someone who constantly seeks out and shares new music, it is often an issue keeping up with my favorite artists. Developed by incorporating the TasteDive, YouTube, and TicketMaster APIs, Sound Stalker addresses such difficulties through one simple search. Just enter your artist in question and information such as related artists and upcoming tour dates are generated and displayed. 
+            Constructed with React.js, CryptoDash is a complete cryptocurrency
+            financial reporting app that fetches and returns CryptoCompare's
+            API. Choose your favorite coin(s) and see real time prices and track
+            its historical data from days, weeks, and months.
           </p>
           <span className="image main">
             <img src={DevNet} alt="" />
@@ -105,7 +113,32 @@ class Main extends React.Component {
             </a>
           </div>
           <p>
-            DevNet is a social networking platform developed specifically for employers/employees and future professionals in the tech industry. Curated with a user registration and login system, DevNet serves as a commonplace for individuals to connect with fellow developers and recruiters alike. 
+            Executed with React.js and MongoDB, DevNet serves as a social
+            networking platform, developed specifically for employers/employees
+            and future professionals in the tech industry. Configured with a
+            user registration and login system, DevNet is a commonplace for
+            individuals to connect with fellow developers and recruiters alike.
+          </p>
+          <span className="image main">
+            <img src={SoundStalker} alt="" />
+          </span>
+          <div className="title-github">
+            <h3>Sound Stalker</h3>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/dayneyulber/Sound-Stalker"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </div>
+          <p>
+            Developed by incorporating the TasteDive, YouTube, and TicketMaster
+            API's, SoundStalker presents users the ability to keep up with their
+            favorite musical aritsts. Through one simple search, SoundStalker
+            generates and displays information such as upcoming tour dates
+            regarding their artist in question.
           </p>
           <span className="image main">
             <img src={Odunsi} alt="" />
@@ -122,7 +155,8 @@ class Main extends React.Component {
             </a>
           </div>
           <p>
-            This is a portfolio made for a talented photographer using React's GatsbyJS framework. 
+            Using React's GatsbyJS framework, I built this portfolio for a
+            talented photographer.
           </p>
           {close}
         </article>
