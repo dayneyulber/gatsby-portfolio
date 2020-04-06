@@ -95,8 +95,8 @@ class Main extends React.Component {
           <p>
             Constructed with React.js, CryptoDash is a complete cryptocurrency
             financial reporting app that fetches and returns CryptoCompare's
-            API. Choose your favorite coin(s) and see real time prices and track
-            its historical data from days, weeks, and months.
+            API. Choose your favorite coin(s), see real time prices and track
+            their historical data from days, weeks, and months.
           </p>
           <span className="image main">
             <img src={DevNet} alt="" />
@@ -155,8 +155,8 @@ class Main extends React.Component {
             </a>
           </div>
           <p>
-            Using React's GatsbyJS framework, I built this portfolio for a
-            talented photographer.
+            I built this portfolio for a talented photographer using React's
+            GatsbyJS framework.
           </p>
           {close}
         </article>
